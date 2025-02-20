@@ -1,11 +1,9 @@
-package lab1;
-
 import java.util.Scanner;
 
-public class Lab1bai4 {
+public class Bai4 {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Nhập hệ số a: ");
         double a = scanner.nextDouble();
@@ -25,7 +23,7 @@ public class Lab1bai4 {
         }
         else {
             System.out.println("Delta âm, không có căn bậc hai ");
-        }
-	}
 
+	    }
+	}
 }
